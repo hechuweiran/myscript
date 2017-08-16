@@ -1,4 +1,4 @@
-#!perl -w
+#!perl -w 
 open (IN,$ARGV[0]) or die "";
 $/ = '>';
 <IN>;
