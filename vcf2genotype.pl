@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl  -w
 my $geno;
 open(IN, $ARGV[0]) or die"";
 while(<IN>){
