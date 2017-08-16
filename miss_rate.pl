@@ -1,5 +1,5 @@
 #!perl -w
-open (IN,$ARGV[0]) or die "";
+open (IN,$ARGV[0]) or die "call me ";
 $/ = '>';
 <IN>;
 while(<IN>){
